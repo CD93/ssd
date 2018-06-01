@@ -36,14 +36,34 @@ RewriteRule ^voeux2018(.*)?	http://lemag.seinesaintdenis.fr/voeux2018$1 [QSA,R]
 RewriteRule ^appel$	http://lemag.seinesaintdenis.fr/appel [QSA,R]
 RewriteRule ^appelSSD$	https://www.change.org/p/la-seine-saint-denis-j-y-tiens?recruiter=818216122 [QSA,R]
 RewriteRule ^tgf$	https://arc2.novagouv.fr/form_dev/eee6a70aacb3c309e66b5d278f574968/ [QSA,R]
-## campagne cheques reussite 2018
+
+################## campagne cheques reussite 2018 ################
+
 RewriteRule ^cr2018? http://chequereussite.seinesaintdenis.fr/?utm_source=depliant&utm_medium=print&utm_campaign=cr2018&utm_content=liencourt [QSA,R]
 RewriteRule ^cr2018qrc? http://chequereussite.seinesaintdenis.fr/?utm_source=depliant&utm_medium=print&utm_campaign=cr2018&utm_content=qrcode [QSA,R]
 RewriteRule ^cr18? http://chequereussite.seinesaintdenis.fr/?utm_source=flyer&utm_medium=print&utm_campaign=cr2018&utm_content=liencourt [QSA,R]
 RewriteRule ^cr18qrc? http://chequereussite.seinesaintdenis.fr/?utm_source=flyer&utm_medium=print&utm_campaign=cr2018&utm_content=qrcode [QSA,R]
 RewriteRule ^reussite2018? http://chequereussite.seinesaintdenis.fr/?utm_source=affiche&utm_medium=print&utm_campaign=cr2018&utm_content=liencourt [QSA,R]
 RewriteRule ^reussite2018qrc? http://chequereussite.seinesaintdenis.fr/?utm_source=affiche&utm_medium=print&utm_campaign=cr2018&utm_content=qrcode [QSA,R]
+
 ###
+
+################## campagne paroles invisibles 2018 ################
+
+RewriteRule ^parolesdinvisibles? https://seinesaintdenis.fr/rubrique10248?utm_source=affiches&utm_medium=print&utm_campaign=parolesinvisibles&utm_content=liencourt [QSA,R]
+RewriteRule ^qparolesdinvisibles? https://seinesaintdenis.fr/rubrique10248?utm_source=affiches&utm_medium=print&utm_campaign=parolesinvisibles&utm_content=qrcode [QSA,R]
+RewriteRule ^paroles-d-invisibles? https://seinesaintdenis.fr/rubrique10248?utm_source=cartes_postales&utm_medium=print&utm_campaign=parolesinvisibles&utm_content=liencourt [QSA,R]
+RewriteRule ^qparoles-d-invisibles? https://seinesaintdenis.fr/rubrique10248?utm_source=cartes_postales&utm_medium=print&utm_campaign=parolesinvisibles&utm_content=qrcode [QSA,R]
+RewriteRule ^paroles_dinvisibles? https://seinesaintdenis.fr/rubrique10248?utm_source=invitations&utm_medium=print&utm_campaign=parolesinvisibles&utm_content=liencourt [QSA,R]
+RewriteRule ^qparoles_dinvisibles? https://seinesaintdenis.fr/rubrique10248?utm_source=invitations&utm_medium=print&utm_campaign=parolesinvisibles&utm_content=qrcode [QSA,R]
+RewriteRule ^paroles-dinvisibles? https://seinesaintdenis.fr/rubrique10248?utm_source=livrets&utm_medium=print&utm_campaign=parolesinvisibles&utm_content=liencourt [QSA,R]
+RewriteRule ^qparoles-dinvisibles? https://seinesaintdenis.fr/rubrique10248?utm_source=livrets&utm_medium=print&utm_campaign=parolesinvisibles&utm_content=qrcode [QSA,R]
+RewriteRule ^paroles_d_invisibles? https://seinesaintdenis.fr/rubrique10248?utm_source=panneaux&utm_medium=print&utm_campaign=parolesinvisibles&utm_content=liencourt [QSA,R]
+RewriteRule ^qparoles_d_invisibles? https://seinesaintdenis.fr/rubrique10248?utm_source=panneaux&utm_medium=print&utm_campaign=parolesinvisibles&utm_content=qrcode [QSA,R]
+
+
+###
+
 # ping ssd.fr/1234 => http://seinesaintdenis.fr/article1234 (ar)
 RewriteRule ^([1-9][0-9]*)$					http://seinesaintdenis.fr/article$1 [QSA,R]
 RewriteRule ^r([1-9][0-9]*)$				http://seinesaintdenis.fr/rubrique$1 [QSA,R]
