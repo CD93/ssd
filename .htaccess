@@ -27,24 +27,24 @@ RewriteBase /
 
 ################ REGLAGES PERSONNALISES ######################
 # Inscrivez ci-dessous vos reglages supplementaires
-# RewriteRule ^(.*) http://seinesaintdenis.fr/laSeineSaintDenisJyTiens [QSA,L]
-RewriteRule ^laSeineSaintDenisJyTiens? http://seinesaintdenis.fr/laSeineSaintDenisJyTiens [QSA,L]
-RewriteRule ^voeux? http://lemag.seinesaintdenis.fr/voeux2018 [QSA,R]
-RewriteRule ^odyssee? http://seinesaintdenis.fr/article1885 [QSA,R]
-RewriteRule ^21novembre$					http://seinesaintdenis.fr/article13848 [QSA,R]
-RewriteRule ^voeux2018(.*)?	http://lemag.seinesaintdenis.fr/voeux2018$1 [QSA,R]
-RewriteRule ^appel$	http://lemag.seinesaintdenis.fr/appel [QSA,R]
+# RewriteRule ^(.*) https://seinesaintdenis.fr/laSeineSaintDenisJyTiens [QSA,L]
+RewriteRule ^laSeineSaintDenisJyTiens? https://seinesaintdenis.fr/laSeineSaintDenisJyTiens [QSA,L]
+RewriteRule ^voeux? https://lemag.seinesaintdenis.fr/voeux2018 [QSA,R]
+RewriteRule ^odyssee? https://seinesaintdenis.fr/article1885 [QSA,R]
+RewriteRule ^21novembre$					https://seinesaintdenis.fr/article13848 [QSA,R]
+RewriteRule ^voeux2018(.*)?	https://lemag.seinesaintdenis.fr/voeux2018$1 [QSA,R]
+RewriteRule ^appel$	https://lemag.seinesaintdenis.fr/appel [QSA,R]
 RewriteRule ^appelSSD$	https://www.change.org/p/la-seine-saint-denis-j-y-tiens?recruiter=818216122 [QSA,R]
 RewriteRule ^tgf$	https://arc2.novagouv.fr/form_dev/eee6a70aacb3c309e66b5d278f574968/ [QSA,R]
 
 ################## campagne cheques reussite 2018 ################
 
-RewriteRule ^cr2018? http://chequereussite.seinesaintdenis.fr/?utm_source=depliant&utm_medium=print&utm_campaign=cr2018&utm_content=liencourt [QSA,R]
-RewriteRule ^cr2018qrc? http://chequereussite.seinesaintdenis.fr/?utm_source=depliant&utm_medium=print&utm_campaign=cr2018&utm_content=qrcode [QSA,R]
-RewriteRule ^cr18? http://chequereussite.seinesaintdenis.fr/?utm_source=flyer&utm_medium=print&utm_campaign=cr2018&utm_content=liencourt [QSA,R]
-RewriteRule ^cr18qrc? http://chequereussite.seinesaintdenis.fr/?utm_source=flyer&utm_medium=print&utm_campaign=cr2018&utm_content=qrcode [QSA,R]
-RewriteRule ^reussite2018? http://chequereussite.seinesaintdenis.fr/?utm_source=affiche&utm_medium=print&utm_campaign=cr2018&utm_content=liencourt [QSA,R]
-RewriteRule ^reussite2018qrc? http://chequereussite.seinesaintdenis.fr/?utm_source=affiche&utm_medium=print&utm_campaign=cr2018&utm_content=qrcode [QSA,R]
+RewriteRule ^cr2018? https://chequereussite.seinesaintdenis.fr/?utm_source=depliant&utm_medium=print&utm_campaign=cr2018&utm_content=liencourt [QSA,R]
+RewriteRule ^cr2018qrc? https://chequereussite.seinesaintdenis.fr/?utm_source=depliant&utm_medium=print&utm_campaign=cr2018&utm_content=qrcode [QSA,R]
+RewriteRule ^cr18? https://chequereussite.seinesaintdenis.fr/?utm_source=flyer&utm_medium=print&utm_campaign=cr2018&utm_content=liencourt [QSA,R]
+RewriteRule ^cr18qrc? https://chequereussite.seinesaintdenis.fr/?utm_source=flyer&utm_medium=print&utm_campaign=cr2018&utm_content=qrcode [QSA,R]
+RewriteRule ^reussite2018? https://chequereussite.seinesaintdenis.fr/?utm_source=affiche&utm_medium=print&utm_campaign=cr2018&utm_content=liencourt [QSA,R]
+RewriteRule ^reussite2018qrc? https://chequereussite.seinesaintdenis.fr/?utm_source=affiche&utm_medium=print&utm_campaign=cr2018&utm_content=qrcode [QSA,R]
 
 ###
 
@@ -64,28 +64,28 @@ RewriteRule ^qparoles_d_invisibles? https://seinesaintdenis.fr/rubrique10248?utm
 
 ###
 
-# ping ssd.fr/1234 => http://seinesaintdenis.fr/article1234 (ar)
-RewriteRule ^([1-9][0-9]*)$					http://seinesaintdenis.fr/article$1 [QSA,R]
-RewriteRule ^r([1-9][0-9]*)$				http://seinesaintdenis.fr/rubrique$1 [QSA,R]
-RewriteRule ^l([1-9][0-9]*)$				http://seinesaintdenis.fr/?utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^c([1-9][0-9]*)$				http://seinesaintdenis.fr/?utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^q([1-9][0-9]*)$				http://seinesaintdenis.fr/?utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
-RewriteRule ^lp([1-9][0-9]*)$				http://seinesaintdenis.fr/?utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^cp([1-9][0-9]*)$				http://seinesaintdenis.fr/?utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^qp([1-9][0-9]*)$				http://seinesaintdenis.fr/?utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
+# ping ssd.fr/1234 => https://seinesaintdenis.fr/article1234 (ar)
+RewriteRule ^([1-9][0-9]*)$					https://seinesaintdenis.fr/article$1 [QSA,R]
+RewriteRule ^r([1-9][0-9]*)$				https://seinesaintdenis.fr/rubrique$1 [QSA,R]
+RewriteRule ^l([1-9][0-9]*)$				https://seinesaintdenis.fr/?utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^c([1-9][0-9]*)$				https://seinesaintdenis.fr/?utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^q([1-9][0-9]*)$				https://seinesaintdenis.fr/?utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
+RewriteRule ^lp([1-9][0-9]*)$				https://seinesaintdenis.fr/?utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^cp([1-9][0-9]*)$				https://seinesaintdenis.fr/?utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^qp([1-9][0-9]*)$				https://seinesaintdenis.fr/?utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
 
-RewriteRule ^l([1-9][0-9]*)/([1-9][0-9]*)$		http://seinesaintdenis.fr/article$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^c([1-9][0-9]*)/([1-9][0-9]*)$		http://seinesaintdenis.fr/article$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^q([1-9][0-9]*)/([1-9][0-9]*)$		http://seinesaintdenis.fr/article$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
-RewriteRule ^l([1-9][0-9]*)/r([1-9][0-9]*)$		http://seinesaintdenis.fr/rubrique$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^c([1-9][0-9]*)/r([1-9][0-9]*)$		http://seinesaintdenis.fr/rubrique$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^q([1-9][0-9]*)/r([1-9][0-9]*)$		http://seinesaintdenis.fr/rubrique$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
-RewriteRule ^lp([1-9][0-9]*)/([1-9][0-9]*)$		http://seinesaintdenis.fr/article$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^cp([1-9][0-9]*)/([1-9][0-9]*)$		http://seinesaintdenis.fr/article$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^qp([1-9][0-9]*)/([1-9][0-9]*)$		http://seinesaintdenis.fr/article$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
-RewriteRule ^lp([1-9][0-9]*)/r([1-9][0-9]*)$	http://seinesaintdenis.fr/rubrique$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^cp([1-9][0-9]*)/r([1-9][0-9]*)$	http://seinesaintdenis.fr/rubrique$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^qp([1-9][0-9]*)/r([1-9][0-9]*)$	http://seinesaintdenis.fr/rubrique$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
+RewriteRule ^l([1-9][0-9]*)/([1-9][0-9]*)$		https://seinesaintdenis.fr/article$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^c([1-9][0-9]*)/([1-9][0-9]*)$		https://seinesaintdenis.fr/article$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^q([1-9][0-9]*)/([1-9][0-9]*)$		https://seinesaintdenis.fr/article$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
+RewriteRule ^l([1-9][0-9]*)/r([1-9][0-9]*)$		https://seinesaintdenis.fr/rubrique$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^c([1-9][0-9]*)/r([1-9][0-9]*)$		https://seinesaintdenis.fr/rubrique$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^q([1-9][0-9]*)/r([1-9][0-9]*)$		https://seinesaintdenis.fr/rubrique$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
+RewriteRule ^lp([1-9][0-9]*)/([1-9][0-9]*)$		https://seinesaintdenis.fr/article$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^cp([1-9][0-9]*)/([1-9][0-9]*)$		https://seinesaintdenis.fr/article$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^qp([1-9][0-9]*)/([1-9][0-9]*)$		https://seinesaintdenis.fr/article$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
+RewriteRule ^lp([1-9][0-9]*)/r([1-9][0-9]*)$	https://seinesaintdenis.fr/rubrique$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^cp([1-9][0-9]*)/r([1-9][0-9]*)$	https://seinesaintdenis.fr/rubrique$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^qp([1-9][0-9]*)/r([1-9][0-9]*)$	https://seinesaintdenis.fr/rubrique$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
 
 # ping ssd.fr/ea1234 => https://eacteurs.seinesaintdenis.fr/article1234 (arm)
 RewriteRule ^ea$						https://eacteurs.seinesaintdenis.fr [QSA,R]
@@ -94,92 +94,92 @@ RewriteRule ^ear([1-9][0-9]*)$		https://eacteurs.seinesaintdenis.fr/rubrique$1 [
 RewriteRule ^eam([1-9][0-9]*)$		https://eacteurs.seinesaintdenis.fr/mot$1 [QSA,R]
 
 
-# ping ssd.fr/mag1234 => http://lemag.seinesaintdenis.fr/article1234 (arm)
-RewriteRule ^mag$						http://lemag.seinesaintdenis.fr [QSA,R]
-RewriteRule ^mag/l([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/?utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^mag/c([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/?utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^mag/q([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/?utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
-RewriteRule ^mag/lp([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/?utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^mag/cp([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/?utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^mag/qp([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/?utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
-RewriteRule ^mag([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/article$1 [QSA,R]
-RewriteRule ^mag/l([1-9][0-9]*)/([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/article$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^mag/c([1-9][0-9]*)/([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/article$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^mag/q([1-9][0-9]*)/([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/article$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
-RewriteRule ^mag/lp([1-9][0-9]*)/([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/article$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^mag/cp([1-9][0-9]*)/([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/article$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^mag/qp([1-9][0-9]*)/([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/article$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
-RewriteRule ^magr([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/rubrique$1 [QSA,R]
-RewriteRule ^magr/l([1-9][0-9]*)/([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/rubrique$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^magr/c([1-9][0-9]*)/([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/rubrique$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^magr/q([1-9][0-9]*)/([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/rubrique$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
-RewriteRule ^magr/lp([1-9][0-9]*)/([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/rubrique$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^magr/cp([1-9][0-9]*)/([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/rubrique$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^magr/qp([1-9][0-9]*)/([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/rubrique$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
-RewriteRule ^magm([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/mot$1 [QSA,R]
-RewriteRule ^magm/l([1-9][0-9]*)/([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/mot$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^magm/c([1-9][0-9]*)/([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/mot$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^magm/q([1-9][0-9]*)/([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/mot$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
-RewriteRule ^magm/lp([1-9][0-9]*)/([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/mot$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^magm/cp([1-9][0-9]*)/([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/mot$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^magm/qp([1-9][0-9]*)/([1-9][0-9]*)$		http://lemag.seinesaintdenis.fr/mot$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
+# ping ssd.fr/mag1234 => https://lemag.seinesaintdenis.fr/article1234 (arm)
+RewriteRule ^mag$						https://lemag.seinesaintdenis.fr [QSA,R]
+RewriteRule ^mag/l([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/?utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^mag/c([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/?utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^mag/q([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/?utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
+RewriteRule ^mag/lp([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/?utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^mag/cp([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/?utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^mag/qp([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/?utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
+RewriteRule ^mag([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/article$1 [QSA,R]
+RewriteRule ^mag/l([1-9][0-9]*)/([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/article$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^mag/c([1-9][0-9]*)/([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/article$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^mag/q([1-9][0-9]*)/([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/article$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
+RewriteRule ^mag/lp([1-9][0-9]*)/([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/article$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^mag/cp([1-9][0-9]*)/([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/article$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^mag/qp([1-9][0-9]*)/([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/article$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
+RewriteRule ^magr([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/rubrique$1 [QSA,R]
+RewriteRule ^magr/l([1-9][0-9]*)/([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/rubrique$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^magr/c([1-9][0-9]*)/([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/rubrique$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^magr/q([1-9][0-9]*)/([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/rubrique$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
+RewriteRule ^magr/lp([1-9][0-9]*)/([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/rubrique$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^magr/cp([1-9][0-9]*)/([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/rubrique$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^magr/qp([1-9][0-9]*)/([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/rubrique$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
+RewriteRule ^magm([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/mot$1 [QSA,R]
+RewriteRule ^magm/l([1-9][0-9]*)/([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/mot$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^magm/c([1-9][0-9]*)/([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/mot$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^magm/q([1-9][0-9]*)/([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/mot$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
+RewriteRule ^magm/lp([1-9][0-9]*)/([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/mot$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^magm/cp([1-9][0-9]*)/([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/mot$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^magm/qp([1-9][0-9]*)/([1-9][0-9]*)$		https://lemag.seinesaintdenis.fr/mot$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
 
-# ping ssd.fr/arch1234 => http://archives.seinesaintdenis.fr/article1234 (ar)
-RewriteRule ^arch$					http://archives.seinesaintdenis.fr [QSA,R]
-RewriteRule ^arch([1-9][0-9]*)$		http://archives.seinesaintdenis.fr/article$1 [QSA,R]
-RewriteRule ^archr([1-9][0-9]*)$	http://archives.seinesaintdenis.fr/rubrique$1 [QSA,R]
-# ping ssd.fr/art1234 => http://artsvisuels.seinesaintdenis.fr/article1234 (ar)
-RewriteRule ^art$					http://artsvisuels.seinesaintdenis.fr [QSA,R]
-RewriteRule ^art([1-9][0-9]*)$		http://artsvisuels.seinesaintdenis.fr/article$1 [QSA,R]
-RewriteRule ^artr([1-9][0-9]*)$		http://artsvisuels.seinesaintdenis.fr/rubrique$1 [QSA,R]
-# ping ssd.fr/data1234 => http://data.seinesaintdenis.fr/article1234 (?)
-RewriteRule ^data$					http://data.seinesaintdenis.fr [QSA,R]
-# ping ssd.fr/grs1234 => http://grs.seinesaintdenis.fr/article1234 (ar)
-RewriteRule ^grs$					http://grs.seinesaintdenis.fr [QSA,R]
-RewriteRule ^grs([1-9][0-9]*)$		http://grs.seinesaintdenis.fr/spip.php?page=articleredirection&artcl=$1 [QSA,R]
-RewriteRule ^grsr([1-9][0-9]*)$		http://grs.seinesaintdenis.fr/rubrique$1 [QSA,R]
-# ping ssd.fr/nl1234 => http://nl.seinesaintdenis.fr/article1234 (ar)
-RewriteRule ^nl$					http://nl.seinesaintdenis.fr [QSA,R]
-RewriteRule ^nl([1-9][0-9]*)$		http://nl.seinesaintdenis.fr/article$1 [QSA,R]
-RewriteRule ^nlr([1-9][0-9]*)$		http://nl.seinesaintdenis.fr/rubrique$1 [QSA,R]
-RewriteRule ^ne$					http://nl.seinesaintdenis.fr [QSA,R]
-RewriteRule ^ne([1-9][0-9]*)$		http://nl.seinesaintdenis.fr/article$1 [QSA,R]
-RewriteRule ^ner([1-9][0-9]*)$		http://nl.seinesaintdenis.fr/rubrique$1 [QSA,R]
+# ping ssd.fr/arch1234 => https://archives.seinesaintdenis.fr/article1234 (ar)
+RewriteRule ^arch$					https://archives.seinesaintdenis.fr [QSA,R]
+RewriteRule ^arch([1-9][0-9]*)$		https://archives.seinesaintdenis.fr/article$1 [QSA,R]
+RewriteRule ^archr([1-9][0-9]*)$	https://archives.seinesaintdenis.fr/rubrique$1 [QSA,R]
+# ping ssd.fr/art1234 => https://artsvisuels.seinesaintdenis.fr/article1234 (ar)
+RewriteRule ^art$					https://artsvisuels.seinesaintdenis.fr [QSA,R]
+RewriteRule ^art([1-9][0-9]*)$		https://artsvisuels.seinesaintdenis.fr/article$1 [QSA,R]
+RewriteRule ^artr([1-9][0-9]*)$		https://artsvisuels.seinesaintdenis.fr/rubrique$1 [QSA,R]
+# ping ssd.fr/data1234 => https://data.seinesaintdenis.fr/article1234 (?)
+RewriteRule ^data$					https://data.seinesaintdenis.fr [QSA,R]
+# ping ssd.fr/grs1234 => https://grs.seinesaintdenis.fr/article1234 (ar)
+RewriteRule ^grs$					https://grs.seinesaintdenis.fr [QSA,R]
+RewriteRule ^grs([1-9][0-9]*)$		https://grs.seinesaintdenis.fr/spip.php?page=articleredirection&artcl=$1 [QSA,R]
+RewriteRule ^grsr([1-9][0-9]*)$		https://grs.seinesaintdenis.fr/rubrique$1 [QSA,R]
+# ping ssd.fr/nl1234 => https://nl.seinesaintdenis.fr/article1234 (ar)
+RewriteRule ^nl$					https://nl.seinesaintdenis.fr [QSA,R]
+RewriteRule ^nl([1-9][0-9]*)$		https://nl.seinesaintdenis.fr/article$1 [QSA,R]
+RewriteRule ^nlr([1-9][0-9]*)$		https://nl.seinesaintdenis.fr/rubrique$1 [QSA,R]
+RewriteRule ^ne$					https://nl.seinesaintdenis.fr [QSA,R]
+RewriteRule ^ne([1-9][0-9]*)$		https://nl.seinesaintdenis.fr/article$1 [QSA,R]
+RewriteRule ^ner([1-9][0-9]*)$		https://nl.seinesaintdenis.fr/rubrique$1 [QSA,R]
 
-# ping ssd.fr/parc1234 => http://parcsinfo.seinesaintdenis.fr/article1234 (ar)
-RewriteRule ^parc$					http://parcsinfo.seinesaintdenis.fr [QSA,R]
-RewriteRule ^parc([0-9]*)$		http://parcsinfo.seinesaintdenis.fr/article$1 [QSA,R]
-RewriteRule ^parcr([0-9]*)$	http://parcsinfo.seinesaintdenis.fr/rubrique$1 [QSA,R]
-RewriteRule ^parc/cp([0-9]*)/([0-9]*)$		http://parcsinfo.seinesaintdenis.fr/article$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^parc/c([0-9]*)/([0-9]*)$		http://parcsinfo.seinesaintdenis.fr/article$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^parc/qp([0-9]*)/([0-9]*)$		http://parcsinfo.seinesaintdenis.fr/article$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
-RewriteRule ^parc/q([0-9]*)/([0-9]*)$		http://parcsinfo.seinesaintdenis.fr/article$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
-RewriteRule ^parcr/cp([0-9]*)/([0-9]*)$	http://parcsinfo.seinesaintdenis.fr/rubrique$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^parcr/c([0-9]*)/([0-9]*)$	http://parcsinfo.seinesaintdenis.fr/rubrique$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
-RewriteRule ^parcr/qp([0-9]*)/([0-9]*)$	http://parcsinfo.seinesaintdenis.fr/rubrique$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
-RewriteRule ^parcr/q([0-9]*)/([0-9]*)$	http://parcsinfo.seinesaintdenis.fr/rubrique$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
+# ping ssd.fr/parc1234 => https://parcsinfo.seinesaintdenis.fr/article1234 (ar)
+RewriteRule ^parc$					https://parcsinfo.seinesaintdenis.fr [QSA,R]
+RewriteRule ^parc([0-9]*)$		https://parcsinfo.seinesaintdenis.fr/article$1 [QSA,R]
+RewriteRule ^parcr([0-9]*)$	https://parcsinfo.seinesaintdenis.fr/rubrique$1 [QSA,R]
+RewriteRule ^parc/cp([0-9]*)/([0-9]*)$		https://parcsinfo.seinesaintdenis.fr/article$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^parc/c([0-9]*)/([0-9]*)$		https://parcsinfo.seinesaintdenis.fr/article$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^parc/qp([0-9]*)/([0-9]*)$		https://parcsinfo.seinesaintdenis.fr/article$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
+RewriteRule ^parc/q([0-9]*)/([0-9]*)$		https://parcsinfo.seinesaintdenis.fr/article$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
+RewriteRule ^parcr/cp([0-9]*)/([0-9]*)$	https://parcsinfo.seinesaintdenis.fr/rubrique$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^parcr/c([0-9]*)/([0-9]*)$	https://parcsinfo.seinesaintdenis.fr/rubrique$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^parcr/qp([0-9]*)/([0-9]*)$	https://parcsinfo.seinesaintdenis.fr/rubrique$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
+RewriteRule ^parcr/q([0-9]*)/([0-9]*)$	https://parcsinfo.seinesaintdenis.fr/rubrique$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
 
-# ping ssd.fr/crp1234 => http://ressources.seinesaintdenis.fr/article1234 (arm)
-RewriteRule ^crp$					http://ressources.seinesaintdenis.fr [QSA,R]
-RewriteRule ^crp([1-9][0-9]*)$		http://ressources.seinesaintdenis.fr/article$1 [QSA,R]
-RewriteRule ^crpr([1-9][0-9]*)$		http://ressources.seinesaintdenis.fr/rubrique$1 [QSA,R]
-RewriteRule ^crpm([1-9][0-9]*)$		http://ressources.seinesaintdenis.fr/mot$1 [QSA,R]
-# ping ssd.fr/pat1234 => http://patrimoine.seinesaintdenis.fr/article1234 (r p c m b)
-RewriteRule ^pat$					http://patrimoine.seinesaintdenis.fr [QSA,R]
-RewriteRule ^pat([1-9][0-9]*)$		http://patrimoine.seinesaintdenis.fr/article$1 [QSA,R]
-RewriteRule ^patp([1-9][0-9]*)$		http://patrimoine.seinesaintdenis.fr/patrimoine$1 [QSA,R]
-RewriteRule ^patr([1-9][0-9]*)$		http://patrimoine.seinesaintdenis.fr/rubrique$1 [QSA,R]
-RewriteRule ^patm([1-9][0-9]*)$		http://patrimoine.seinesaintdenis.fr/mot$1 [QSA,R]
-RewriteRule ^patc([1-9][0-9]*)$		http://patrimoine.seinesaintdenis.fr/commune$1 [QSA,R]
-RewriteRule ^patb([1-9][0-9]*)$		http://patrimoine.seinesaintdenis.fr/bibliographie$1 [QSA,R]
-RewriteRule ^pata([1-9][0-9]*)$		http://patrimoine.seinesaintdenis.fr/architecte$1 [QSA,R]
-RewriteRule ^path([1-9][0-9]*)$		http://patrimoine.seinesaintdenis.fr/personne$1 [QSA,R]
+# ping ssd.fr/crp1234 => https://ressources.seinesaintdenis.fr/article1234 (arm)
+RewriteRule ^crp$					https://ressources.seinesaintdenis.fr [QSA,R]
+RewriteRule ^crp([1-9][0-9]*)$		https://ressources.seinesaintdenis.fr/article$1 [QSA,R]
+RewriteRule ^crpr([1-9][0-9]*)$		https://ressources.seinesaintdenis.fr/rubrique$1 [QSA,R]
+RewriteRule ^crpm([1-9][0-9]*)$		https://ressources.seinesaintdenis.fr/mot$1 [QSA,R]
+# ping ssd.fr/pat1234 => https://patrimoine.seinesaintdenis.fr/article1234 (r p c m b)
+RewriteRule ^pat$					https://patrimoine.seinesaintdenis.fr [QSA,R]
+RewriteRule ^pat([1-9][0-9]*)$		https://patrimoine.seinesaintdenis.fr/article$1 [QSA,R]
+RewriteRule ^patp([1-9][0-9]*)$		https://patrimoine.seinesaintdenis.fr/patrimoine$1 [QSA,R]
+RewriteRule ^patr([1-9][0-9]*)$		https://patrimoine.seinesaintdenis.fr/rubrique$1 [QSA,R]
+RewriteRule ^patm([1-9][0-9]*)$		https://patrimoine.seinesaintdenis.fr/mot$1 [QSA,R]
+RewriteRule ^patc([1-9][0-9]*)$		https://patrimoine.seinesaintdenis.fr/commune$1 [QSA,R]
+RewriteRule ^patb([1-9][0-9]*)$		https://patrimoine.seinesaintdenis.fr/bibliographie$1 [QSA,R]
+RewriteRule ^pata([1-9][0-9]*)$		https://patrimoine.seinesaintdenis.fr/architecte$1 [QSA,R]
+RewriteRule ^path([1-9][0-9]*)$		https://patrimoine.seinesaintdenis.fr/personne$1 [QSA,R]
 #
 ###
 
 #################################
 # gestion des erreurs 404
-ErrorDocument 404 http://seinesaintdenis.fr/spip.php?page=404
+ErrorDocument 404 https://seinesaintdenis.fr/spip.php?page=404
 
 #
 ###
