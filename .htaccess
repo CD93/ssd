@@ -39,12 +39,13 @@ RewriteRule ^tgf$	https://arc2.novagouv.fr/form_dev/eee6a70aacb3c309e66b5d278f57
 
 ################## campagne cheques reussite 2018 ################
 
-RewriteRule ^cr2018? https://seinesaintdenis.fr/13649?utm_source=depliant&utm_medium=print&utm_campaign=cr2018&utm_content=liencourt [QSA,R]
-RewriteRule ^cr2018qrc? https://seinesaintdenis.fr/13649?utm_source=depliant&utm_medium=print&utm_campaign=cr2018&utm_content=qrcode [QSA,R]
-RewriteRule ^cr18? https://seinesaintdenis.fr/13649?utm_source=flyer&utm_medium=print&utm_campaign=cr2018&utm_content=liencourt [QSA,R]
-RewriteRule ^cr18qrc? https://seinesaintdenis.fr/13649?utm_source=flyer&utm_medium=print&utm_campaign=cr2018&utm_content=qrcode [QSA,R]
-RewriteRule ^reussite2018? https://seinesaintdenis.fr/13649?utm_source=affiche&utm_medium=print&utm_campaign=cr2018&utm_content=liencourt [QSA,R]
-RewriteRule ^reussite2018qrc? https://seinesaintdenis.fr/13649?utm_source=affiche&utm_medium=print&utm_campaign=cr2018&utm_content=qrcode [QSA,R]
+#RewriteRule ^cr2018? https://chequereussite.seinesaintdenis.fr/?utm_source=depliant&utm_medium=print&utm_campaign=cr2018&utm_content=liencourt [QSA,R]
+RewriteRule ^cr2018? https://seinesaintdenis.fr/article13649?utm_source=depliant&utm_medium=print&utm_campaign=cr2018&utm_content=liencourt [QSA,R]
+RewriteRule ^cr2018qrc? https://seinesaintdenis.fr/article13649?utm_source=depliant&utm_medium=print&utm_campaign=cr2018&utm_content=qrcode [QSA,R]
+RewriteRule ^cr18? https://seinesaintdenis.fr/article13649?utm_source=flyer&utm_medium=print&utm_campaign=cr2018&utm_content=liencourt [QSA,R]
+RewriteRule ^cr18qrc? https://seinesaintdenis.fr/article13649?utm_source=flyer&utm_medium=print&utm_campaign=cr2018&utm_content=qrcode [QSA,R]
+RewriteRule ^reussite2018? https://seinesaintdenis.fr/article13649?utm_source=affiche&utm_medium=print&utm_campaign=cr2018&utm_content=liencourt [QSA,R]
+RewriteRule ^reussite2018qrc? https://seinesaintdenis.fr/article13649?utm_source=affiche&utm_medium=print&utm_campaign=cr2018&utm_content=qrcode [QSA,R]
 
 ###
 
