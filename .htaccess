@@ -47,7 +47,7 @@ RewriteRule ^cr18? http://chequereussite.seinesaintdenis.fr/?utm_source=flyer&ut
 RewriteRule ^reussite2018qrc? http://chequereussite.seinesaintdenis.fr/?utm_source=affiche&utm_medium=print&utm_campaign=cr2018&utm_content=qrcode [QSA,R]
 RewriteRule ^reussite2018? http://chequereussite.seinesaintdenis.fr/?utm_source=affiche&utm_medium=print&utm_campaign=cr2018&utm_content=liencourt [QSA,R]
 RewriteRule ^cr-2018? http://chequereussite.seinesaintdenis.fr/?utm_source=insertPresse&utm_medium=print&utm_campaign=cr2018&utm_content=liens [QSA,R]
-
+RewriteRule ^cr-2018qrc? http://chequereussite.seinesaintdenis.fr/?utm_source=insertPresse&utm_medium=print&utm_campaign=cr2018&utm_content=qrcode [QSA,R]
 ###
 
 ################## campagne paroles invisibles 2018 ################
