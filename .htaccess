@@ -23,7 +23,9 @@ RewriteBase /
 
 # Fin version
 ###
+### redirection nouveau site Travaux ###
 
+RewriteRule ^travaux([1-9][0-9]*)$		http://travaux-prod.integra.fr/spip.php?page=travaux&id_travaux=$1 [QSA,R]
 
 ################ REGLAGES PERSONNALISES ######################
 # Inscrivez ci-dessous vos reglages supplementaires
@@ -48,7 +50,6 @@ RewriteRule ^reussite2018qrc? http://chequereussite.seinesaintdenis.fr/?utm_sour
 RewriteRule ^reussite2018? http://chequereussite.seinesaintdenis.fr/?utm_source=affiche&utm_medium=print&utm_campaign=cr2018&utm_content=liencourt [QSA,R]
 RewriteRule ^cr-2018? http://chequereussite.seinesaintdenis.fr/?utm_source=insertPresse&utm_medium=print&utm_campaign=cr2018&utm_content=liens [QSA,R]
 RewriteRule ^cr-2018qrc? http://chequereussite.seinesaintdenis.fr/?utm_source=insertPresse&utm_medium=print&utm_campaign=cr2018&utm_content=qrcode [QSA,R]
-
 ###
 
 ################## campagne paroles invisibles 2018 ################
