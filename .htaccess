@@ -23,9 +23,14 @@ RewriteBase /
 
 # Fin version
 ###
+
+### redirection site vote ###
+
+RewriteRule ^jevote?		https://seinesaintdenis.fr/rubrique10261 [QSA,R]
+
 ### redirection nouveau site Travaux ###
 
-RewriteRule ^travaux([1-9][0-9]*)$		http://travaux-prod.integra.fr/spip.php?page=travaux&id_travaux=$1 [QSA,R]
+RewriteRule ^travaux([1-9][0-9]*)$		https://travaux.seinesaintdenis.fr/spip.php?page=travaux&id_travaux=$1 [QSA,R]
 
 ################ REGLAGES PERSONNALISES ######################
 # Inscrivez ci-dessous vos reglages supplementaires
