@@ -26,6 +26,7 @@ RewriteBase /
 
 ### redirection site vote ###
 
+
 RewriteRule ^jevote?		https://seinesaintdenis.fr/rubrique10261 [QSA,R]
 
 ### redirection nouveau site Travaux ###
