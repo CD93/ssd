@@ -24,9 +24,10 @@ RewriteBase /
 # Fin version
 ###
 
+
+### redirection Ikaria ###
+RewriteRule ^ikaria?		https://seinesaintdenis.fr/La-carte-Ikaria-arrive-bientot.html [QSA,R]
 ### redirection site vote ###
-
-
 RewriteRule ^jevote?		https://seinesaintdenis.fr/rubrique10261 [QSA,R]
 
 ### redirection nouveau site Travaux ###
@@ -182,6 +183,19 @@ RewriteRule ^parcsr/cp([0-9]*)/([0-9]*)$	https://parcsinfo.seinesaintdenis.fr/ru
 RewriteRule ^parcsr/c([0-9]*)/([0-9]*)$	https://parcsinfo.seinesaintdenis.fr/rubrique$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
 RewriteRule ^parcsr/qp([0-9]*)/([0-9]*)$	https://parcsinfo.seinesaintdenis.fr/rubrique$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
 RewriteRule ^parcsr/q([0-9]*)/([0-9]*)$	https://parcsinfo.seinesaintdenis.fr/rubrique$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
+
+# ping ssd.fr/parcsinfo1234 => https://parcsinfo.seinesaintdenis.fr/article1234 (ar)
+RewriteRule ^parcsinfo$					https://parcsinfo.seinesaintdenis.fr [QSA,R]
+RewriteRule ^parcsinfo([0-9]*)$		https://parcsinfo.seinesaintdenis.fr/article$1 [QSA,R]
+RewriteRule ^parcsinfor([0-9]*)$	https://parcsinfo.seinesaintdenis.fr/rubrique$1 [QSA,R]
+RewriteRule ^parcsinfo/cp([0-9]*)/([0-9]*)$		https://parcsinfo.seinesaintdenis.fr/article$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^parcsinfo/c([0-9]*)/([0-9]*)$		https://parcsinfo.seinesaintdenis.fr/article$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^parcsinfo/qp([0-9]*)/([0-9]*)$		https://parcsinfo.seinesaintdenis.fr/article$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
+RewriteRule ^parcsinfo/q([0-9]*)/([0-9]*)$		https://parcsinfo.seinesaintdenis.fr/article$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
+RewriteRule ^parcsinfor/cp([0-9]*)/([0-9]*)$	https://parcsinfo.seinesaintdenis.fr/rubrique$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^parcsinfor/c([0-9]*)/([0-9]*)$	https://parcsinfo.seinesaintdenis.fr/rubrique$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=liencourt [QSA,R]
+RewriteRule ^parcsinfor/qp([0-9]*)/([0-9]*)$	https://parcsinfo.seinesaintdenis.fr/rubrique$2&utm_source=imprime&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
+RewriteRule ^parcsinfor/q([0-9]*)/([0-9]*)$	https://parcsinfo.seinesaintdenis.fr/rubrique$2&utm_source=mag&utm_medium=print&utm_campaign=campagne$1&utm_content=qrcode [QSA,R]
 
 # ping ssd.fr/crp1234 => https://ressources.seinesaintdenis.fr/article1234 (arm)
 RewriteRule ^crp$					https://ressources.seinesaintdenis.fr [QSA,R]
