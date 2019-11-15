@@ -26,7 +26,7 @@ RewriteBase /
 
 
 ### redirection Ikaria ###
-RewriteRule ^ikaria?		https://seinesaintdenis.fr/La-carte-Ikaria-arrive-bientot.html [QSA,R]
+RewriteRule ^ikaria?		https://ikaria.seinesaintdenis.fr [QSA,R]
 ### redirection site vote ###
 RewriteRule ^jevote?		https://seinesaintdenis.fr/rubrique10261 [QSA,R]
 
