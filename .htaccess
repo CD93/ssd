@@ -24,16 +24,27 @@ RewriteBase /
 # Fin version
 ###
 
+RewriteRule ^eceaunome? https://seinesaintdenis.fr/eceaunome [QSA,R,NC]
+
+### redirection Voeux2020 ###
+RewriteRule ^ici?		https://lemag.seinesaintdenis.fr/film2020 [QSA,R,NC]
+RewriteRule ^voeux2020?		https://lemag.seinesaintdenis.fr/voeux2020 [QSA,R,NC]
 
 ### redirection Ikaria ###
-RewriteRule ^ikaria?		https://ikaria.seinesaintdenis.fr [QSA,R]
+RewriteRule ^ikaria?		https://ikaria.seinesaintdenis.fr [QSA,R,NC]
+RewriteRule ^15173?		    https://seinesaintdenis.fr/15216 [QSA,R,L]
+
 ### redirection site vote ###
 RewriteRule ^jevote?		https://seinesaintdenis.fr/rubrique10261 [QSA,R]
+### redirection pole 6 routes ###
+RewriteRule ^pole6routes?		https://seinesaintdenis.fr/15230 [QSA,R,NC]
 
 ### redirection nouveau site Travaux ###
-
 RewriteRule ^travaux([1-9][0-9]*)$		https://travaux.seinesaintdenis.fr/spip.php?page=travaux&id_travaux=$1 [QSA,R]
 RewriteRule ^travaux$					https://travaux.seinesaintdenis.fr [QSA,R]
+
+### redirection erreur ###
+RewriteRule ^r10263?		    https://seinesaintdenis.fr/14836 [QSA,R,L]
 
 ################ REGLAGES PERSONNALISES ######################
 # Inscrivez ci-dessous vos reglages supplementaires
